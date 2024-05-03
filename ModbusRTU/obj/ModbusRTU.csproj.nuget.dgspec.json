@@ -1,0 +1,87 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/solomon/Desktop/personal/Modbus_Rtu_Csharp/ModbusRTU/ModbusRTU.csproj": {}
+  },
+  "projects": {
+    "/home/solomon/Desktop/personal/Modbus_Rtu_Csharp/ModbusRTU/ModbusRTU.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/solomon/Desktop/personal/Modbus_Rtu_Csharp/ModbusRTU/ModbusRTU.csproj",
+        "projectName": "ModbusRTU",
+        "projectPath": "/home/solomon/Desktop/personal/Modbus_Rtu_Csharp/ModbusRTU/ModbusRTU.csproj",
+        "packagesPath": "/home/solomon/.nuget/packages/",
+        "outputPath": "/home/solomon/Desktop/personal/Modbus_Rtu_Csharp/ModbusRTU/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/solomon/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Modbus": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Modbus.Net": {
+              "target": "Package",
+              "version": "[1.4.3, )"
+            },
+            "NLOG": {
+              "target": "Package",
+              "version": "[5.3.2, )"
+            },
+            "NModbus": {
+              "target": "Package",
+              "version": "[3.0.81, )"
+            },
+            "NModbus.Serial": {
+              "target": "Package",
+              "version": "[3.0.81, )"
+            },
+            "System.IO.Ports": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.421/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
